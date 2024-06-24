@@ -631,12 +631,12 @@ static ssize_t razer_attr_read_device_type(struct device *dev, struct device_att
         break;
 
     case USB_DEVICE_ID_RAZER_VIPER_V3_PRO_WIRED:
-      device_type = "Razer Viper V3 Pro (Wired)\n";
-      break;
+        device_type = "Razer Viper V3 Pro (Wired)\n";
+        break;
 
     case USB_DEVICE_ID_RAZER_VIPER_V3_PRO_WIRELESS:
-      device_type = "Razer Viper V3 Pro (Wireless)\n";
-      break;
+        device_type = "Razer Viper V3 Pro (Wireless)\n";
+        break;
 
     default:
         device_type = "Unknown Device\n";
